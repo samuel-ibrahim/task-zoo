@@ -1,0 +1,84 @@
+#include <iostream>
+#include <string>
+using namespace std;
+class ZOO {
+public:
+	string name;
+	string eating ;
+	string  sleep;
+	float age;
+	string move;
+};
+
+int main() {
+	cout << "zoo contain three animal  \n";
+	cout << "Enter ( name, eating, sleep, age, move)\n";
+	// animal 1
+
+	ZOO animal1;
+	cout << " Animal number 1\n"; 
+	cout << "name :- " << animal1.name << endl;
+	cin >> animal1.name;
+	cout << "eat :- " << animal1.eating << endl;
+	cin >> animal1.eating;
+	cout << "sleep :- " << animal1.sleep << endl;
+	cin >> animal1.sleep;
+	cout << "age:- " << animal1.age << endl;
+	cin >> animal1.age;
+	cout << "move :- " << animal1.move << endl;
+	cin >> animal1.move;
+	cout << "name :- " << animal1.name << endl;
+	cout << "eat :- " << animal1.eating << endl;
+	cout << "sleep :- " << animal1.sleep << endl;
+	cout << "age:- " << animal1.age << endl;
+	cout << "move :- " << animal1.move << endl;
+	  
+
+	///////////////////
+	//animal 2
+
+	ZOO animal2;
+	cout << " Animal number 2";
+	cout << "name :- " << animal2.name << endl;
+	cin >> animal2.name;
+	cout << "eat :- " << animal2.eating << endl;
+	cin >> animal2.eating;
+	cout << "sleep :- " << animal2.sleep << endl;
+	cin >> animal2.sleep;
+	cout << "age:- " << animal1.age << endl;
+	cin >> animal2.age;
+	cout << "move :- " << animal2.move << endl;
+	cin >> animal2.move;
+	cout << "name :- " << animal2.name << endl;
+	cout << "eat :- " << animal2.eating << endl;
+	cout << "sleep :- " << animal2.sleep << endl;
+	cout << "age:- " << animal2.age << endl;
+	cout << "move :- " << animal2.move << endl;
+
+
+
+	////////////////////////
+	// animal 3
+	ZOO animal3;
+	cout << " Animal number 3";
+	cout << "name :- " << animal3.name << endl;
+	cin >> animal3.name;
+	cout << "eat :- " << animal3.eating << endl;
+	cin >> animal3.eating;
+	cout << "sleep :- " << animal3.sleep << endl;
+	cin >> animal3.sleep;
+	cout << "age:- " << animal1.age << endl;
+	cin >> animal3.age;
+	cout << "move :- " << animal3.move << endl;
+	cin >> animal3.move;
+	cout << "name :- " << animal3.name << endl;
+	cout << "eat :- " << animal3.eating << endl;
+	cout << "sleep :- " << animal3.sleep << endl;
+	cout << "age:- " << animal3.age << endl;
+	cout << "move :- " << animal3.move << endl;
+
+
+	system("pause");
+	return 0;
+
+}
